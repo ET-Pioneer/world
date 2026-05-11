@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Transition News | AI, Geopolitics and the Future of Civilization</title>
+  <meta name="description" content="Daily world news and analysis about AI, geopolitics, technology, post-scarcity economics, future governance, Electric Technocracy, and global civilization change." />
+  <meta name="keywords" content="World Transition News, Global News, Future News, AI Analysis, Technology News, Geopolitical News, Future Governance, Digital Civilization, ASI News, Quantum Technology, Future World Order" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="World Transition News | AI, Geopolitics and the Future of Civilization" />
+  <meta property="og:description" content="Daily world news and analysis about AI, geopolitics, technology, and global civilization change." />
+  <meta property="og:image" content="../assets/hero.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="WorldNews" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="POS6A_n9nSGi6W4cWi-49r84-3ML8vTuLRBZQX-OFBc" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-inner">
+      <div class="ticker-label">BREAKING</div>
+      <div class="ticker-track">
+        <div class="ticker-items">
+          <span>AI systems now surpass human performance across major cognitive benchmarks</span>
+          <span>Global automation reaches 40% of manufacturing workforce in OECD nations</span>
+          <span>Electric Technocracy framework adopted in three pilot governance regions</span>
+          <span>Brain-Computer Interface trials expand to 50,000 participants worldwide</span>
+          <span>Fusion energy grid reaches 1 gigawatt milestone in experimental facility</span>
+          <span>Digital Democracy platforms process 200 million direct citizen votes</span>
+          <span>Quantum computing breakthrough reduces encryption vulnerability window</span>
+          <span>AI systems now surpass human performance across major cognitive benchmarks</span>
+          <span>Global automation reaches 40% of manufacturing workforce in OECD nations</span>
+          <span>Electric Technocracy framework adopted in three pilot governance regions</span>
+          <span>Brain-Computer Interface trials expand to 50,000 participants worldwide</span>
+          <span>Fusion energy grid reaches 1 gigawatt milestone in experimental facility</span>
+          <span>Digital Democracy platforms process 200 million direct citizen votes</span>
+          <span>Quantum computing breakthrough reduces encryption vulnerability window</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-wrap">
+        <img src="assets/logo-square.png" alt="At the Crossroads" class="logo-img" />
+        <div class="logo-text">
+          <span class="logo-title">At the Crossroads</span>
+          <span class="logo-sub">World News · Age of Transition</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="main-nav" id="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">World News</a></li>
+          <li><a href="#ai">AI</a></li>
+          <li><a href="#geopolitics">Geopolitics</a></li>
+          <li><a href="#civilization">Civilization</a></li>
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#economy">Future Economy</a></li>
+          <li><a href="#rss-feeds">RSS Feeds</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <div class="section-label">Daily Coverage</div>
+      <h1 class="page-title">World Transition<br><em style="color:var(--red); font-style:normal;">News</em></h1>
+      <p class="page-subtitle">Daily reporting, strategic analysis, and future-oriented perspectives on the transformation of global civilization during the Age of Transition.</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section style="background: var(--bg2); border-bottom: 1px solid var(--border); padding: 0 24px;">
+    <div class="container">
+      <div class="news-filter" id="filter-bar">
+        <button class="filter-btn active" data-cat="all">All Topics</button>
+        <button class="filter-btn" data-cat="Future Civilization">Future Civilization</button>
+        <button class="filter-btn" data-cat="Future Governance">Future Governance</button>
+        <button class="filter-btn" data-cat="Future Economy">Future Economy</button>
+        <button class="filter-btn" data-cat="Human Evolution">Human Evolution</button>
+        <button class="filter-btn" data-cat="Electric Technocracy">Electric Technocracy</button>
+        <button class="filter-btn" data-cat="Geopolitics">Geopolitics</button>
+        <button class="filter-btn" data-cat="Age of Transition">Age of Transition</button>
+        <button class="filter-btn" data-cat="Mental Singularity">Mental Singularity</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLES FULL GRID -->
+  <section class="section articles-section" style="background: var(--bg);" id="all-articles">
+    <div class="container">
+      <div class="section-label">All Articles</div>
+      <h2 class="section-title">Analysis &amp; Reports</h2>
+      <div class="articles-grid" id="articles-grid" style="margin-top:50px;">
+
+        <a href="articles/article-1.html" class="article-card" data-cat="Future Civilization">
+          <div class="article-thumb">
+            <img src="assets/hero.png" alt="Humanity at the Crossroads" loading="lazy" />
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Future Civilization</div>
+            <div class="article-card-title">Humanity at the Crossroads</div>
+            <p class="article-card-excerpt">Human civilization has entered the most transformative period in recorded history. AI, quantum computing, robotics, and automation are changing the foundations of economics, politics, and society faster than governments can adapt.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Age of Transition</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-2.html" class="article-card" data-cat="Future Governance" id="geopolitics">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">🏛️</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Future Governance</div>
+            <div class="article-card-title">The End of the Political Age?</div>
+            <p class="article-card-excerpt">Representative political systems emerged during an era of limited communication and restricted information. Artificial Intelligence changes this historical equation fundamentally — could traditional party politics eventually become obsolete?</p>
+            <div class="article-card-meta">
+              <span class="article-date">Governance</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-3.html" class="article-card" data-cat="Future Economy" id="economy">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">💼</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Future Economy</div>
+            <div class="article-card-title">AI, Automation, and the Future of Work</div>
+            <p class="article-card-excerpt">If machines increasingly generate economic value, what role remains for traditional human labor? From Universal Basic Income to post-scarcity infrastructure, the debate stands at the center of future global politics.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Economics</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-4.html" class="article-card" data-cat="Human Evolution">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">🧬</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Human Evolution</div>
+            <div class="article-card-title">The Rise of Homo Nexus</div>
+            <p class="article-card-excerpt">Throughout history, human evolution occurred through biological adaptation. The 21st century introduces technological evolution integrated directly into human cognition — the emergence of Homo Nexus.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Transhumanism</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-5.html" class="article-card" data-cat="Future Civilization">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">⚖️</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Future Civilization</div>
+            <div class="article-card-title">Total Extinction or Electronic Paradise</div>
+            <p class="article-card-excerpt">Humanity now possesses the technological capability to create either the most advanced civilization in history — or the conditions for its own destruction. The greatest threat may be primitive psychology amplified by godlike tools.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Existential Risk</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-6.html" class="article-card" data-cat="Electric Technocracy" id="civilization">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">⚡</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Electric Technocracy</div>
+            <div class="article-card-title">Electric Technocracy — Civilization Beyond Politics</div>
+            <p class="article-card-excerpt">Electric Technocracy proposes a future governance architecture for post-scarcity civilization — transitioning from ideological competition toward data-driven coordination with AI-assisted transparent governance.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Governance</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-7.html" class="article-card" data-cat="Geopolitics">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">⚖️</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Geopolitics</div>
+            <div class="article-card-title">Juridical Singularity — The Transformation of International Order</div>
+            <p class="article-card-excerpt">Modern international law developed within the Westphalian nation-state framework. The Juridical Singularity doctrine describes the point where traditional legal structures become superseded by integrated global infrastructure systems.</p>
+            <div class="article-card-meta">
+              <span class="article-date">International Law</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-8.html" class="article-card" data-cat="Age of Transition">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">🔄</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Age of Transition</div>
+            <div class="article-card-title">The Age of Transition — Humanity Between Two Civilizations</div>
+            <p class="article-card-excerpt">Humanity currently exists between two worlds. The old world was industrial, scarcity-driven, and politically fragmented. The emerging world is automated, intelligent, and globally connected. This unstable period is the Age of Transition.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Civilization</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-9.html" class="article-card" data-cat="Mental Singularity" id="ai">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">🌌</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Mental Singularity</div>
+            <div class="article-card-title">Mental Singularity — The Evolution of Human Consciousness</div>
+            <p class="article-card-excerpt">The Mental Singularity refers to the phase where human cognition becomes deeply integrated with AI, BCIs, and global knowledge systems. For the first time, humanity gains the ability to consciously influence its own cognitive evolution.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Neuroscience</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="articles/article-10.html" class="article-card" data-cat="Geopolitics">
+          <div class="article-thumb">
+            <div class="article-thumb-placeholder">🏰</div>
+          </div>
+          <div class="article-card-body">
+            <div class="article-cat">Geopolitics</div>
+            <div class="article-card-title">Kreuzbergkaserne — Ground Zero of the World Succession Deed</div>
+            <p class="article-card-excerpt">Located in Zweibrücken, Germany, Kreuzbergkaserne once functioned as a major U.S. military and telecommunications infrastructure connected to NATO systems. The World Succession Deed 1400/98 transformed it into a symbol of civilizational transition.</p>
+            <div class="article-card-meta">
+              <span class="article-date">Infrastructure</span>
+              <span class="read-more">Read</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RSS FEEDS -->
+  <section class="section rss-section fade-in" id="rss-feeds">
+    <div class="container">
+      <div class="section-label">Live Feeds</div>
+      <h2 class="section-title">Network Updates</h2>
+      <div class="rss-grid">
+        <div class="rss-feed">
+          <div class="rss-feed-header">
+            <div class="rss-icon">📡</div>
+            <div>
+              <div class="rss-feed-name">Electric Technocracy Blog</div>
+              <div class="rss-feed-url">worldsold.wixsite.com/electric-technocracy</div>
+            </div>
+          </div>
+          <div id="rss1-container">
+            <div class="rss-loading">Loading feed...</div>
+          </div>
+        </div>
+        <div class="rss-feed">
+          <div class="rss-feed-header">
+            <div class="rss-icon">🌍</div>
+            <div>
+              <div class="rss-feed-name">World Sold Blog</div>
+              <div class="rss-feed-url">worldsold.wixsite.com/world-sold</div>
+            </div>
+          </div>
+          <div id="rss2-container">
+            <div class="rss-loading">Loading feed...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/logo-square.png" alt="At the Crossroads" class="footer-logo-img" />
+            <span class="footer-logo-name">At the Crossroads</span>
+          </div>
+          <p class="footer-tagline">"The future cannot be managed using exclusively 19th-century political models while operating 21st-century technologies."</p>
+          <p style="font-size:12px; color: var(--gray);">Independent world news platform covering the Age of Transition.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Articles</div>
+          <ul class="footer-links">
+            <li><a href="articles/article-1.html">Humanity at the Crossroads</a></li>
+            <li><a href="articles/article-2.html">End of the Political Age</a></li>
+            <li><a href="articles/article-3.html">AI &amp; Future of Work</a></li>
+            <li><a href="articles/article-4.html">Rise of Homo Nexus</a></li>
+            <li><a href="articles/article-5.html">Extinction or Paradise</a></li>
+            <li><a href="articles/article-6.html">Electric Technocracy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">More Articles</div>
+          <ul class="footer-links">
+            <li><a href="articles/article-7.html">Juridical Singularity</a></li>
+            <li><a href="articles/article-8.html">Age of Transition</a></li>
+            <li><a href="articles/article-9.html">Mental Singularity</a></li>
+            <li><a href="articles/article-10.html">Kreuzbergkaserne</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Networks</div>
+          <ul class="footer-links">
+            <li><a href="https://doi.org/10.5281/zenodo.18735660" target="_blank" rel="noopener">Zenodo Research</a></li>
+            <li><a href="https://worldsold.wixsite.com/electric-technocracy" target="_blank" rel="noopener">Electric Technocracy</a></li>
+            <li><a href="https://electric-paradise.start.page" target="_blank" rel="noopener">Electric Paradise</a></li>
+            <li><a href="https://worldsold.wixsite.com/world-sold/en" target="_blank" rel="noopener">World Sold</a></li>
+            <li><a href="https://creators.spotify.com/pod/show/world-succession-deed" target="_blank" rel="noopener">Spotify Podcast</a></li>
+            <li><a href="https://www.youtube.com/@Staatensukzessionsurkunde-1400" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://wiki.free.nf/" target="_blank" rel="noopener">Wiki</a></li>
+            <li><a href="https://zenodo.org/communities/electric-technocracy" target="_blank" rel="noopener">Zenodo Community</a></li>
+            <li><a href="https://wiki.free.nf/index.php/Juridical_Singularity" target="_blank" rel="noopener">Juridical Singularity</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 <span>At the Crossroads</span> — World News for the Age of Transition.</p>
+        <a href="index.html" style="font-size:12px; color:var(--gray);">← Back to Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll
+    const header = document.getElementById('site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('main-nav').classList.toggle('open');
+    });
+
+    // Scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Category filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const articleCards = document.querySelectorAll('#articles-grid .article-card');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.cat;
+        articleCards.forEach(card => {
+          if (cat === 'all' || card.dataset.cat === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // RSS Feed loader
+    async function loadRSS(feedUrl, containerId) {
+      const container = document.getElementById(containerId);
+      try {
+        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(feedUrl)}`;
+        const res = await fetch(proxy);
+        const data = await res.json();
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(data.contents, 'text/xml');
+        const items = Array.from(xml.querySelectorAll('item')).slice(0, 10);
+        if (!items.length) throw new Error('No items');
+        const ul = document.createElement('ul');
+        ul.className = 'rss-items';
+        items.forEach(item => {
+          const title = item.querySelector('title')?.textContent || 'Untitled';
+          const link = item.querySelector('link')?.textContent || '#';
+          const pubDate = item.querySelector('pubDate')?.textContent;
+          const date = pubDate ? new Date(pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+          const li = document.createElement('li');
+          li.className = 'rss-item';
+          li.innerHTML = `<a href="${link}" target="_blank" rel="noopener"><div class="rss-item-title">${title}</div>${date ? `<div class="rss-item-date">${date}</div>` : ''}</a>`;
+          ul.appendChild(li);
+        });
+        container.innerHTML = '';
+        container.appendChild(ul);
+      } catch(e) {
+        container.innerHTML = `<div class="rss-loading" style="color:var(--gray)">Feed temporarily unavailable.<br><a href="${feedUrl}" target="_blank" style="color:var(--red)">Visit feed directly →</a></div>`;
+      }
+    }
+
+    loadRSS('https://worldsold.wixsite.com/electric-technocracy/blog-feed.xml', 'rss1-container');
+    loadRSS('https://worldsold.wixsite.com/world-sold/en/blog-feed.xml', 'rss2-container');
+  </script>
+</body>
+</html>
